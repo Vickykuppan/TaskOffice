@@ -1,0 +1,60 @@
+import java.util.Scanner;
+public class Task1 {
+
+	public static void main(String[] args) {
+	    int num;
+		
+Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the hours: ");
+	num=sc.nextInt();
+	
+if(num<=23)
+{
+ System.out.println( "10 hr");
+}
+else if(num>=24 && num<=47)
+{
+	System.out.println("1 day");
+}
+else if(num>=48 && num<=71)
+	{
+	System.out.println("2 days");
+	}
+else if(num>=72 && num<=95)
+	{
+	System.out.println("3 days");
+	}
+else if(num>=96 && num<=119)
+	{
+	System.out.println("4 days");
+	}
+else if(num>=120 && num<=143)
+	{
+	System.out.println("5 days");
+	}
+else if(num>=144 && num<=167)
+	{
+	System.out.println("6 days");
+	}
+else if(num>=168 && num<=335)
+	{
+	System.out.println("1 week");
+	}
+else if(num>=336 && num<=503)
+	{
+	System.out.println("2 weeks");
+	}
+else if(num>=504 && num<=671)
+	{
+	System.out.println("3 weeks");
+	}
+else if(num>=672 && num<=744)
+	{
+	System.out.println("1 month");
+	}
+else
+{
+	System.out.println("Invalid");
+}
+	}
+}
